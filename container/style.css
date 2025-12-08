@@ -1,0 +1,31 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 250px;
+    height: 250px;
+    background-color: orangered;
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+
+.inner-text {
+    border: 2px solid black;
+    padding: 10px 20px;
+}
+
+.inner-text p {
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+button {
+    padding: 6px 15px;
+    font-size: 16px;
+    cursor: pointer;
+}
